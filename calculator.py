@@ -1,13 +1,15 @@
-# Experimental Caculator Module
-print("---AI MATRIX ADDITION---")
+# Upgrade Interactive Calculator Modeule
+print("--- AI MATRIX ADDITION---")
 
-# Variables holding numeric data
-data_node_A = 45
-data_node_B = 55
-# Caculating the sum
-total_power = data_node_A +  data_node_B
+# Asking the user to type the data numbers dynamically
+data_node_A = int(input("Enter Node A Power: "))
+data_node_B = int(input("Enter Node B Power: "))
 
-print(f"Node A Output: {data_node_A}")
-print(f"Node B Output: {data_node_B}")
-print(f"Total Matrix Power: {total_power}%")
-print("-------------------------------")
+# Calculator the sum dynamically
+total_power = data_node_A + data_noad_B
+
+print("\n=====================================")
+print(f"Node A output: {data_node_A}")
+print(f"Node B output: {data_node_B}")
+print(f"Total Matrix power: {total_power}%")
+print("========================================")
