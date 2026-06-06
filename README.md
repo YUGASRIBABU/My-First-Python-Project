@@ -1,3 +1,2 @@
-# My very first Python program!
-print("Hello World!")
-print("Yugasri Babu is officially ready for SRM Ramapuram!")
+My-First-Python-Project
+My very first Python script before starting college!
