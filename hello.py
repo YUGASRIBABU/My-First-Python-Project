@@ -1,13 +1,13 @@
-# Day 2: The Dentist Escape Room
-print("--- THE DENTIST ESCAPE ---")
+birth_year_text = input(" What is your birth year? ")
 
-# \n creates a new line, and \t indents the text like a bullet point!
-print("You wake up trapped in the dentist chair...\n")
-print("Your choices:\n\t1. Fight the dentist\n\t2. Jump out the window")
+birth_year_number = int(birth_year_text)
 
-# This lets you type your choice in the terminal!
-choice = input("\nType 1 or 2 and press Enter: ")
+age = 2026 - birth_year_number
 
-print("\n--- RESULTS ---")
-print("You chose option: " + choice)
-print("The dentist says: \"You can\'t escape cleaning day!\"")
+print("Your age is? ")
+print(age)
+
+if age >= 18:
+    print("you are an adult. You can voat! 🗳️")
+else:
+    print("You are a minor. No voting for you yet! 👶")
