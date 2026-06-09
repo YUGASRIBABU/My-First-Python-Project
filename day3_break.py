@@ -1,10 +1,14 @@
-# A small database of user trying to access our  system
-user_names = ["alex", "sam", "BANNERD_USER", "chris", "taylor"]
+cargo_belt = ["box_1", "damaged_box", "box_2", "BOMB", "box_3"]
 
-# Loop through the database to grant access
-for user in user_names:
-    if user == "BANNERD_USER":
-        print("🚨SKIPPING BANNED USER! Throwing them out of linr...")
-        continue  # this skip the rest of this turn and move to the next name!
+print("🏭 Cargo scanning system INITALIZED...\n")
 
-    print(f"Welcome back, {user}! Access granted. ✅")
+for item in cargo_belt:
+    if item == "damaged_box":
+        print(f"🗑️ ALERT: {item} is broken! Skipping.")
+        continue
+
+    if item == "BOMB":
+        print(f"🚨 DANGER! {item} DELECTED! SHUTTING DOWN!")
+        break
+
+    print(f"📦 Cargo iteam '{item}' verified. Loading! ✅")
