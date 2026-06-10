@@ -5,8 +5,7 @@ hours_coding = 2
 
 # 2. Multiplying line 3 and 4 together
 total_drain = ai_app_drain * hours_coding
-print(
-    f"Total battery drain after {hours_coding} hours of coding: {total_drain}%")
+print(f"Total battery drain after {hours_coding} hours of coding: {total_drain}%")
 
 # 3. create a variable for the final battery percentage
 final_battery = current_battery - total_drain
