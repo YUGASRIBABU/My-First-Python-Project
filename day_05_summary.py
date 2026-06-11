@@ -13,4 +13,4 @@ if 1 <= hours_learned <= 3:
 if coad_runner_fixed and not feeling_tired:
     print("I have plenty of energy to keep coding")
 else:
-    print("VS Coad is fixed, but my brain is tired!")
+    print("VS Code is fixed, but my brain is tired!")
